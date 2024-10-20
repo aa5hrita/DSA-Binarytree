@@ -4,7 +4,7 @@ import org.javadsa.demos.util.Node;
 
 public class SearchAnElement {
     // Function to search for a value in the binary tree using InOrder DFS
-    // Current Node, Left Subtree, Right Subtree
+    // (InOrder DFS Algorithm) Current Node, Left Subtree, Right Subtree
     static boolean searchDFS(Node root, int value) {
         // Base case: If the tree is empty, or we've reached a leaf node
         if (root == null) return false;
